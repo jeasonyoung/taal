@@ -17,7 +17,7 @@ COPY ssh_plugin/ /opt/ssh_plugin/
 RUN chmod +x /opt/ssh_plugin/install_ssh.sh /opt/ssh_plugin/entrypoint.sh \
     && /opt/ssh_plugin/install_ssh.sh
 
-EXPOSE 5173 22
+EXPOSE 3000 22
 
 ENTRYPOINT ["/opt/ssh_plugin/entrypoint.sh"]
 CMD ["npm", "run","start"]
