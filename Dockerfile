@@ -20,4 +20,4 @@ RUN chmod +x /opt/ssh_plugin/install_ssh.sh /opt/ssh_plugin/entrypoint.sh \
 EXPOSE 5173 22
 
 ENTRYPOINT ["/opt/ssh_plugin/entrypoint.sh"]
-CMD ["npm", "start"]
+CMD ["npm", "run","start"]
