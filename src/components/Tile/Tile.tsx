@@ -2,7 +2,7 @@ import { Instance } from '@react-three/drei';
 import { ThreeEvent, invalidate, useFrame } from '@react-three/fiber';
 import { memo, startTransition, useRef, useState } from 'react';
 import { useStore } from '../../store/store';
-import { Building } from '../Building/Building';
+import { Building } from '../building/Building';
 import { Color, Group } from 'three';
 import { getTerrainHeight, WATER_HEIGHT } from '../../helpers/terrain';
 import { useSelectedTile } from './SelectedTileContext';

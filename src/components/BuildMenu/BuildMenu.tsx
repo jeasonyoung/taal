@@ -1,9 +1,9 @@
 import { getTerrainType, Terrain } from '../../helpers/terrain';
 import { Ressources, useStore } from '../../store/store';
-import { BuildingType } from '../Building/Building';
+import { BuildingType } from '../building/Building';
 import classNames from 'classnames';
 import './BuildMenu.scss';
-import { allBuildings, getCostsOfBuilding, getPossibleBuildingsForTerrain } from '../Building/buildings';
+import { allBuildings, getCostsOfBuilding, getPossibleBuildingsForTerrain } from '../building/buildings';
 import BuildingMenuEntry from './BuildMenuEntry/BuildMenuEntry';
 
 export const BuildMenu = () => {

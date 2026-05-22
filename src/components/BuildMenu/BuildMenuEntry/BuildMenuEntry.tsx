@@ -1,11 +1,11 @@
 import { useState } from 'react';
-import { BuildingType } from '../../Building/Building';
-import { Building, getBuildingByType } from '../../Building/buildings';
+import { BuildingType } from '../../building/Building';
+import { Building, getBuildingByType } from '../../building/buildings';
 
 import './BuildMenuEntry.scss';
 import { createPortal } from 'react-dom';
 import { useClickOutside } from '../../../hooks';
-import { SELLFACTOR } from '../../Building/buildingFinancials';
+import { SELLFACTOR } from '../../building/buildingFinancials';
 
 type BuildMenuEntryProps = {
   building?: Building;

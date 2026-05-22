@@ -1,9 +1,9 @@
 import { Object3D, Vector3, Object3DEventMap } from 'three';
 import { create } from 'zustand';
 import { persist, devtools } from 'zustand/middleware';
-import { BuildingType } from '../components/Building/Building';
-import { BuildingSellBenefits } from '../components/Building/buildingFinancials';
-import { getCostsOfBuilding, getOutputOfBuilding } from '../components/Building/buildings';
+import { BuildingType } from '../components/building/Building';
+import { BuildingSellBenefits } from '../components/building/buildingFinancials';
+import { getCostsOfBuilding, getOutputOfBuilding } from '../components/building/buildings';
 
 export type Ressources = 'wood' | 'stone' | 'gold' | 'food' | 'villager';
 
